@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    color: white;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    top:0 ;
+}
+.logo img{
+    height: 110px;
+}
+.name{
+    padding: 10px;
+}
+nav{
+    background-color: gray;
+    width: 100%;
+    height: auto;
+    font-size: 25px;
+    font-weight: 400;
+    top: 105px;
+    position: fixed;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+.menu div{
+    text-align:center;
+    flex: 1;
+}
+.meanu div a{
+    color: black;
+    display: block;
+    padding: 15px 0;
+    text-decoration: none;
+}
+.menu div p{
+    justify-content: center;
+    position: relative;
+    top: 17px;
+}
+.dp:hover{
+    color: brown;
+}
+.active{
+    background-color: red ;
+    color: white;
+}
+.dp{
+    position: relative;
+}
+ul{
+    display: none;
+    position: relative;
+    list-style: none;
+}
+.dp:hover ul {
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid black;
+    top: 60px;
+}
+.dp ul li a:hover{
+    background-color:red;
+    border-radius: 8px;
+}
+
+nav a:hover{
+    color: white;
+}
+.image{
+    margin: 40px;
+    margin-top: 220px;
+    position: relative;
+    z-index: -1;
+}
+.image img{
+    width: 100%;
+    display: block;
+}
+.image h1{
+    position: absolute;
+    font-size: 40px;
+    font-weight: 700;
+    padding-left: 115px;
+    color:white;
+    bottom: 80px;
+}
+.text{
+    margin: 50px;
+    text-align: justify;
+    line-height: 24px;
+    font-size:large;
+}
+span{
+    font-weight: 800;
+    font-size: 17px;
+    font-weight: 700;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+
+footer a:hover {
+    color: yellow ;   
+    background-color: black ;
+}
+.box {
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+    margin: 40px;
+}
